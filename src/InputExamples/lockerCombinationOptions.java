@@ -19,7 +19,7 @@ System.out.println("Your second option is " + num1 + "-" + num3 + "-" + num2);
 System.out.println("Your third option is " + num2 + "-" + num1 + "-" + num3);
 System.out.println("Your fourth option is " + num2 + "-" + num3 + "-" + num1);
 System.out.println("Your fifth option is " + num3 + "-" + num1 + "-" + num2);
-System.out.println("Your sixth option is " + num1 + "-" + num2 + "-" + num1);
+System.out.println("Your sixth option is " + num3 + "-" + num2 + "-" + num1);
 input.close();
 	}
 
