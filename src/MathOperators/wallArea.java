@@ -6,10 +6,11 @@ public class wallArea {
 		// TODO Auto-generated method stub
 Scanner input= new Scanner(System.in);
 int height= -999;
-System.out.println("What is the height of the wall?");
+System.out.println("What is the width of the wall?");
 height= input.nextInt();
-height= height*height;
-System.out.println("the area of the wall is " + height);
+int area= -999;
+area= height*8;
+System.out.println("the area of the wall is " + area);
 input.close();
 	}
 
