@@ -15,7 +15,7 @@ height=input.nextDouble();
 area = height*width;
 area=area/9;
 System.out.println("It take " + area + " 3x3 post-it notes to cover the rectangle");
-		
+		input.close();
 	}
 
 }
