@@ -20,6 +20,7 @@ System.out.println("Your middle digits are " + middlethree);
 lastfour=(int)phonenumber/1;
 lastfour=(int)lastfour%10000;
 System.out.println("Your last four digits are " + lastfour);
+input.close();
 	}
 
 }
