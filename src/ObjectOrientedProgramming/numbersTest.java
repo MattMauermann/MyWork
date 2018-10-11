@@ -6,6 +6,7 @@ public class numbersTest {
 		// TODO Auto-generated method stub
 Numbers bob=new Numbers();
 bob.sayNumber(3);
+bob.sayNumberPlus2(7);
 	}
 
 }
