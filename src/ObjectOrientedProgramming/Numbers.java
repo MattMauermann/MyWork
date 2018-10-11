@@ -15,6 +15,10 @@ public void sayNumberPlus2 (int num)
 {
 	System.out.println(num+2);
 }
-
+public void saySum(double num1, double num2)
+{
+	double result=num1 + num2;
+	System.out.println(result);
+}
 //methods
 }
