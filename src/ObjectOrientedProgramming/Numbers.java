@@ -20,5 +20,21 @@ public void saySum(double num1, double num2)
 	double result=num1 + num2;
 	System.out.println(result);
 }
+public int returnSquare(int box)
+{
+	int answer=box*box;
+	return answer;
+}
+public int returnArea(int length, int width)
+{
+	int result=length*width;
+	return result;
+}
+
+public int returnRound(double value)
+{
+	int result= (int)Math.ceil(value);
+			return result;
+}
 //methods
 }
