@@ -26,7 +26,7 @@ public class fillSandbox {
 		System.out.println("It will take " + time + "hours to fill the sandbox of volume " + volume + "cubic feet");
 	}
 	public double fill3(double volume1, double rate1) {
-		double time1=volume1/rate1;
+		double time1=volume1/rate1; 
 		return time1;
 	}
 	}
