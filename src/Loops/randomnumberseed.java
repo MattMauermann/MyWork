@@ -6,7 +6,7 @@ public class randomnumberseed {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Random generator = new Random();
+		Random generator = new Random(5);
 		int max = 100;
 		int min = 0;
 
