@@ -20,7 +20,7 @@ public class numberseedstoflipacoin100000times {
 				tails++;
 			}
 		}
-		System.out.println("the number of heads is " + heads + "and the number of tails is " + tails);
+		System.out.println("the number of heads is " + heads + " and the number of tails is " + tails);
 	}
 
 }
