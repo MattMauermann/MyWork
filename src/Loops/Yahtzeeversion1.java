@@ -24,7 +24,7 @@ public class Yahtzeeversion1 {
 			randomNum5 = min + generator.nextInt(max - min + 1);
 			trialscount++;
 		}
-		System.out.println("It took a total of " + trialscount + " tries to get a yahtzee");
+		System.out.println("It took a total of " + trialscount + " rolls to get a yahtzee");
 	}
 
 }
