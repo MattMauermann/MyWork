@@ -28,10 +28,10 @@ public class triangle {
 	}
 
 	public void changebase(double changeb) {
-		base = changeb * base;
+		base = changeb;
 	}
 
 	public void changeheight(double changeh) {
-		height = changeh * height;
+		height = changeh;
 	}
 }
