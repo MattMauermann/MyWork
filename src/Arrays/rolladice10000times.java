@@ -16,6 +16,7 @@ public class rolladice10000times {
 		int[] dice = new int[10000];
 		for (int counter = 0; counter < 10000; counter++) {
 			int randomNum = min + generator.nextInt(max - min + 1);
+
 			dice[counter] = randomNum;
 		}
 		while (i != 10001) {
