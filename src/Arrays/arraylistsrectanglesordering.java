@@ -25,8 +25,12 @@ public class arraylistsrectanglesordering {
 			if ((randomNum * randomNum1) < smallest) {
 				smallest = i;
 			}
-		}
 
+		}
+		rectangle thing = rectangleA.remove(largest);
+		rectangleA.add(0, thing);
+		rectangle thang = rectangleA.remove(smallest);
+		// rectangleA.add(rectangle.size()-1, thang);
 	}
 
 }
